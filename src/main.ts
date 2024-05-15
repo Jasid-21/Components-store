@@ -6,9 +6,10 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faChevronLeft,
   faChevronRight,
+  faStar,
 } from '@fortawesome/free-solid-svg-icons';
 
-library.add(faChevronLeft, faChevronRight);
+library.add(faChevronLeft, faChevronRight, faStar);
 
 const app = createApp(App);
 app.component('fai', FontAwesomeIcon);

@@ -1,9 +1,18 @@
 <template>
   <div class="home">
-    <BasicCarousel></BasicCarousel>
+    <ScoreSelector></ScoreSelector>
   </div>
 </template>
 
 <script lang="ts" setup>
-import BasicCarousel from '@/components/Carousel/BasicCarousel.vue';
+import ScoreSelector from '@/components/ScoreSelector/ScoreSelector.vue';
 </script>
+
+<style scoped>
+.home {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+</style>
